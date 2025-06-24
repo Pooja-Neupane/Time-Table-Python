@@ -1,23 +1,23 @@
-# 📅 Interactive Timetable Generator
+# 📘 Interactive Timetable Generator (Python CLI App)
 
-A Python-based command-line tool that allows you to create and save personalized weekly timetables. It's clean, colorful, and interactive — perfect for students, teachers, and professionals who want to organize their schedules easily.
-
----
-
-## 🔥 Features
-
-- 🎨 **Colorful CLI Interface** using `colorama`
-- 📋 **Dynamic Inputs** – Enter your own days and time slots
-- ⚡ **Smart Defaults** – Use Mon–Fri and common periods with one key
-- 💾 **Save to File** – Automatically saves the timetable as a `.txt` file
-- 🧠 **User-Friendly Prompts** – With input validation
-- 🔁 **Multiple Routines** – Create as many timetables as you want in one go
+A user-friendly Python-based Command-Line Interface (CLI) tool that allows you to create, view, and save custom weekly timetables. It includes colorful prompts, input validation, and saves your timetable in a nicely formatted table.
 
 ---
 
-## 🚀 Installation
+## 🚀 Features
 
-Make sure Python is installed. Then install the required libraries:
+- 🎨 **Colorful, interactive CLI** using `colorama`
+- 📅 **Customizable days and time slots**
+- 🧠 **User-defined subjects per period**
+- ✅ **Input validation** for smooth experience
+- 📄 **Export timetable** to `.txt` file
+- 🔁 Supports multiple timetables in a single session
+
+---
+
+## 📦 Requirements
+
+Install required libraries:
 
 ```bash
 pip install tabulate colorama
